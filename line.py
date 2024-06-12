@@ -15,11 +15,11 @@ def line():
 	print()
 
 	print(f"""Para la siguiente ecuación:
-	\tY = {Coeficiente_A}X + {Coeficiente_B}""")
+	Y = {Coeficiente_A}X + {Coeficiente_B}""")
 	print()
 	print(f"""Dados los siguientes puntos:
-	\tP1 ({Coeficiente_C}, {Y1})
-	\tP2 ({Coeficiente_D}, {Y2})""")
+	P1 ({Coeficiente_C}, {Y1})
+	P2 ({Coeficiente_D}, {Y2})""")
 	print()
 	P1 = Coeficiente_C, Y1
 	P2 = Coeficiente_D, Y2
