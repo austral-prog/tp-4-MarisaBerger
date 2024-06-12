@@ -15,15 +15,15 @@ def line():
 	print()
 
 	print(f"""Para la siguiente ecuación:
-	Y = {Coeficiente_A}X + {Coeficiente_B}""")
+	\tY = {Coeficiente_A}X + {Coeficiente_B}""")
 	print()
 	print(f"""Dados los siguientes puntos:
-	P1 ({Coeficiente_C}, {Y1})
-	P2 ({Coeficiente_D}, {Y2})""")
+	\tP1 ({Coeficiente_C}, {Y1})
+	\tP2 ({Coeficiente_D}, {Y2})""")
 	print()
 	P1 = Coeficiente_C, Y1
 	P2 = Coeficiente_D, Y2
 
-	Distancia = math.dist(P1,P2)
-	print(f"La distancia entre ellos es: {Distancia}")
+	distancia = math.dist(P1,P2)
+	print(f"La distancia entre ellos es: {distancia}")
 line()
